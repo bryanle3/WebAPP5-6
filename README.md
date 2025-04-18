@@ -1,5 +1,5 @@
 # WebAPP5-6
-This project includes the following components that I implemented:
+What I Implemented:
 
 - ✅ Login functionality using `LoginRequest` and `LoginResponse` classes
 - ✅ Authentication logic via `AuthService.cs`
