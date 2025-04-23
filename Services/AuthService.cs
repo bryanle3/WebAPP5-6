@@ -7,7 +7,7 @@ namespace WebAPP5_6.Services
 {
     public class AuthService
     {
-       //Testing (Replace with real database later)
+        //Testing (Replace with real database later)
         private static List<(string Username, string Password, string Permissions)> Users = new List<(string, string, string)>
         {
             ("admin", "admin123", "admin"),

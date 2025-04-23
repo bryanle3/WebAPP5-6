@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPP5-6", "WebAPP5-6.csproj", "{F7A1C11E-54DC-4399-8B2E-10BD5476E688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCurrency", "..\WebCurrency\WebCurrency.csproj", "{540BAD6C-DEFB-416A-979E-BACFAB805C70}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E013343F-881A-4AAB-B37D-AB5008EB2676} = {E013343F-881A-4AAB-B37D-AB5008EB2676}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyAPP", "..\CurrencyAPP\CurrencyAPP.csproj", "{E013343F-881A-4AAB-B37D-AB5008EB2676}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,14 @@ Global
 		{F7A1C11E-54DC-4399-8B2E-10BD5476E688}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7A1C11E-54DC-4399-8B2E-10BD5476E688}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7A1C11E-54DC-4399-8B2E-10BD5476E688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540BAD6C-DEFB-416A-979E-BACFAB805C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540BAD6C-DEFB-416A-979E-BACFAB805C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540BAD6C-DEFB-416A-979E-BACFAB805C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540BAD6C-DEFB-416A-979E-BACFAB805C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E013343F-881A-4AAB-B37D-AB5008EB2676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E013343F-881A-4AAB-B37D-AB5008EB2676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E013343F-881A-4AAB-B37D-AB5008EB2676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E013343F-881A-4AAB-B37D-AB5008EB2676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
