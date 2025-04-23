@@ -26,3 +26,9 @@ What I Implemented:
 | user2    | pass2      | user  |
 
 These users are stored in the mock user list inside `AuthService.cs`.
+
+📝 How Sign Up Works
+1. Enter a username and password
+2. Password will be encrypted and stored in App_Data/users.xml
+3. If the username already exists, an error message will appear
+
