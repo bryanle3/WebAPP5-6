@@ -1,34 +1,44 @@
-# WebAPP5-6
-What I Implemented:
+✅ What’s Implemented
 
-- ✅ Login functionality using `LoginRequest` and `LoginResponse` classes
-- ✅ Authentication logic via `AuthService.cs`
-- ✅ Session handling using ASP.NET `Session` objects
-- ✅ Protected pages (`Dashboard.aspx`) with session validation
-- ✅ Display of logged-in user's info and role
-- ✅ Basic file organization using folders like `AuthModels` and `Services`
+✅ Login functionality using LoginRequest and LoginResponse classes
 
- How to Run
-1. Open the solution in **Visual Studio**.
-2. Set `Login.aspx` or `Pages/Login.aspx` as the **start page**.
-3. Run the project (Ctrl + F5).
-4. Enter one of the test users below to log in.
-5. Upon successful login, you will be redirected to the **Dashboard**.
+✅ Sign-Up functionality that stores user credentials in App_Data/users.xml
 
->  Make sure to update redirect paths if you've moved `.aspx` files into folders like `/Pages/`.
+✅ Password encryption using a service (ServiceClient.Encrypt())
 
-## 🔐 Test Users
+✅ Authentication logic via AuthService.cs
 
-| Username | Password   | Role  |
-|----------|------------|-------|
-| admin    | admin123   | admin |
-| user1    | pass1      | user  |
-| user2    | pass2      | user  |
+✅ Session handling using ASP.NET Session objects
 
-These users are stored in the mock user list inside `AuthService.cs`.
+✅ Dashboard.aspx page protected by session validation
 
-📝 How Sign Up Works
-1. Enter a username and password
-2. Password will be encrypted and stored in App_Data/users.xml
-3. If the username already exists, an error message will appear
+✅ Displays logged-in user info and role-based access
+
+✅ Clean folder organization (AuthModels, Services, etc.)
+
+🚀 How to Run the Project
+Open the solution in Visual Studio.
+
+Set either Pages/Login.aspx or Pages/SignUp.aspx as the start page.
+
+Press Ctrl + F5 to run without debugging.
+
+You can either:
+
+Sign up to create a new user
+
+Or log in using an existing account (see below)
+
+Note: If you've moved .aspx files into folders like /Pages/, make sure your redirect paths and Start Page are updated accordingly.
+
+🔐 Sign-Up Flow
+Navigate to the Sign-Up page
+
+Enter a unique username and a password
+
+The password is encrypted and saved into App_Data/users.xml
+
+If the username already exists, an error message will be shown
+
+Admin Account: Admin Admin123
 
