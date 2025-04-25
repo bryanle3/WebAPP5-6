@@ -60,7 +60,7 @@ namespace WebAPP5_6
             doc.Root.Add(newUser);
             doc.Save(path);
 
-            lblSignUpResult.Text = "User registered successfully!";
+            Response.Redirect("Placeholder.aspx");
         }
     }
 }

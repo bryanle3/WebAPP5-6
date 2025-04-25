@@ -78,6 +78,7 @@
     </None>
     <Content Include="App_Data\users.xml" />
     <Content Include="LoginPages\Dashboard.aspx" />
+    <Content Include="Placeholder.aspx" />
     <Content Include="SignupPage\SignupExE.aspx" />
     <Content Include="Web.config" />
     <Content Include="LoginPages\Default.aspx" />
@@ -95,6 +96,13 @@
     </Compile>
     <Compile Include="LoginPages\Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Placeholder.aspx.cs">
+      <DependentUpon>Placeholder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Placeholder.aspx.designer.cs">
+      <DependentUpon>Placeholder.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AuthService.cs" />
